@@ -35,14 +35,22 @@ The **Correction** tab provides tools for editing and enhancing nighttime sky im
 ## Colors
 Adjust the intensity of the RGB components of the working image.
 
+<table>
+  <tr>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td><img src="images/correction/col_preview.png" width="300"></td>
+  </tr>
+</table>
+
 - **Slider range:** `-255` to `+255`  
   - `-255` = remove component completely  
   - `0` = unchanged  
   - `+255` = maximum intensity  
 
-**Usage**
+**Usage:**
 <!-- Colors Table -->
-<h3>Colors</h3>
 <table>
   <tr>
     <th>Value</th>
@@ -66,44 +74,134 @@ Adjust the intensity of the RGB components of the working image.
 ## Brightness
 Adjust the brightness of the working image.
 
+<table>
+  <tr>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td><img src="images/correction/bri_preview.png" width="300"></td>
+  </tr>
+</table>
+
 - **Slider range:** `-100` to `100`  
   - `-100` = very dark  
   - `0` = unchanged  
   - `100` = very bright  
 
-**Screenshot:**  
-![Brightness](images/correction/brightness.png)
+**Usage:**
+<!-- Brightness Table -->
+<table>
+  <tr>
+    <th>Value</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td>Original</td>
+    <td><img src="images/correction/original.png" width="150"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/correction/bri_arg_1.png" width="150"/></td>
+    <td><img src="images/correction/bri_res_1.png" width="150"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/correction/bri_arg_2.png" width="150"/></td>
+    <td><img src="images/correction/bri_res_2.png" width="150"/></td>
+  </tr>
+</table>
 
 ---
 
 ## Contrast
 Adjust the contrast of the working image.
 
+<table>
+  <tr>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td><img src="images/correction/con_preview.png" width="300"></td>
+  </tr>
+</table>
+
 - **Slider range:** `0` to `2`  
   - `0` = no contrast (uniform gray)  
   - `1` = unchanged  
-  - `2` = maximum contrast  
-
-**Screenshot:**  
-![Contrast](images/correction/contrast.png)
+  - `2` = maximum contrast
+  
+**Usage:**
+<!-- Contrast Table -->
+<table>
+  <tr>
+    <th>Value</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td>Original</td>
+    <td><img src="images/correction/original.png" width="150"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/correction/con_arg_1.png" width="150"/></td>
+    <td><img src="images/correction/con_res_1.png" width="150"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/correction/con_arg_2.png" width="150"/></td>
+    <td><img src="images/correction/con_res_2.png" width="150"/></td>
+  </tr>
+</table>
 
 ---
 
 ## Saturation
 Adjust color saturation of the working image.
 
+<table>
+  <tr>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td><img src="images/correction/sat_preview.png" width="300"></td>
+  </tr>
+</table>
+
 - **Slider range:** `0` to `2`  
   - `0` = monochrome  
   - `1` = unchanged  
   - `2` = maximum saturation  
 
-**Screenshot:**  
-![Saturation](images/correction/saturation.png)
+**Usage:**
+<!-- Saturation Table -->
+<table>
+  <tr>
+    <th>Value</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td>Original</td>
+    <td><img src="images/correction/original.png" width="150"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/correction/sat_arg_1.png" width="150"/></td>
+    <td><img src="images/correction/sat_res_1.png" width="150"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/correction/sat_arg_2.png" width="150"/></td>
+    <td><img src="images/correction/sat_res_2.png" width="150"/></td>
+  </tr>
+</table>
 
 ---
 
 ## Sharpness
 Enhances image sharpness by emphasizing edges (opposite of blur).
+
+<table>
+  <tr>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td><img src="images/correction/sha_preview.png" width="300"></td>
+  </tr>
+</table>
 
 - **Slider range:** `1` to `2`  
   - `1` = unchanged  
@@ -111,13 +209,36 @@ Enhances image sharpness by emphasizing edges (opposite of blur).
 
 **Note:** Edges are extracted by subtracting a Gaussian-smoothed version of the image, then blended with the original image to enhance sharpness.
 
-**Screenshot:**  
-![Sharpness](images/correction/sharpness.png)
+**Usage:**
+<!-- Sharpness Table -->
+<table>
+  <tr>
+    <th>Value</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td>Original</td>
+    <td><img src="images/correction/original.png" width="150"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/correction/sha_arg_1.png" width="150"/></td>
+    <td><img src="images/correction/sha_res_1.png" width="150"/></td>
+  </tr>
+</table>
 
 ---
 
 ## Blur
 Applies Gaussian blur to the working image.
+
+<table>
+  <tr>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td><img src="images/correction/blu_preview.png" width="300"></td>
+  </tr>
+</table>
 
 - **Slider range:** `0` to `10`  
   - `0` = unchanged  
@@ -125,13 +246,36 @@ Applies Gaussian blur to the working image.
 
 **Note:** The standard deviation of the Gaussian filter is set equal to the slider value.
 
-**Screenshot:**  
-![Blur](images/correction/blur.png)
+**Usage:**
+<!-- Sharpness Table -->
+<table>
+  <tr>
+    <th>Value</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td>Original</td>
+    <td><img src="images/correction/original.png" width="150"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/correction/blu_arg_1.png" width="150"/></td>
+    <td><img src="images/correction/blu_res_1.png" width="150"/></td>
+  </tr>
+</table>
 
 ---
 
 ## Noise Reduction
 Removes noise while preserving edges.
+
+<table>
+  <tr>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td><img src="images/correction/noi_preview.png" width="300"></td>
+  </tr>
+</table>
 
 - **Slider range:** `0` to `1`  
   - `0` = unchanged  
@@ -139,13 +283,36 @@ Removes noise while preserving edges.
 
 **Note:** Uses a bilateral filter for edge-preserving smoothing.
 
-**Screenshot:**  
-![Noise Reduction](images/correction/noise.png)
+**Usage:**
+<!-- Sharpness Table -->
+<table>
+  <tr>
+    <th>Value</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td>Original</td>
+    <td><img src="images/correction/noi_original.png" width="150"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/correction/noi_arg_1.png" width="150"/></td>
+    <td><img src="images/correction/noi_res_1.png" width="150"/></td>
+  </tr>
+</table>
 
 ---
 
 ## Warmth (Temperature)
 Adjusts the overall color temperature of the image.
+
+table>
+  <tr>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td><img src="images/correction/tem_preview.png" width="300"></td>
+  </tr>
+</table>
 
 - **Slider range:** `-100` to `100`  
   - Negative = cooler tones (blue)  
@@ -154,5 +321,23 @@ Adjusts the overall color temperature of the image.
 
 **Note:** The slider increases the red channel and decreases the blue channel accordingly.
 
-**Screenshot:**  
-![Warmth](images/correction/warmth.png)
+**Usage:**
+<!-- Sharpness Table -->
+<table>
+  <tr>
+    <th>Value</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td>Original</td>
+    <td><img src="images/correction/original.png" width="150"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/correction/tem_arg_1.png" width="150"/></td>
+    <td><img src="images/correction/tem_res_1.png" width="150"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/correction/tem_arg_2.png" width="150"/></td>
+    <td><img src="images/correction/tem_res_2.png" width="150"/></td>
+  </tr>
+</table>
