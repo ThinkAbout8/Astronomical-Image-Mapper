@@ -207,6 +207,7 @@ This tab is disabled if no objects have been detected.
   4. Click **Remove** to delete the line.
 
 Line selection endpoint is marked with **yellow circle**. Same rules apply as for [Select Mode](#select-mode). ***Second object can't be same as the first one***.
+
 <img src="images/charting/lin_sel_1.png"> 
 
 **Status Indicators**
