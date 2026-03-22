@@ -24,10 +24,11 @@ This tab is disabled if no objects have been detected.
 
 1. **Preview Window:** Displays the working image with mapped objects.
 2. **Control Panel**
-    - **Mode Switch:** Toggle between moving the image or selecting objects.
-    - **Bake Button:** Rasterizes all map elements into the working image.  
-      - Locks Detection and Charting tabs for the current image.
-3. **Clear Map Button:** Removes all elements from the map.
+3. **Mode Switch:** Toggle between moving the image or selecting objects.
+4. **Bake Button:** Rasterizes all map elements into the working image.
+     - Locks Detection and Charting tabs for the current image.
+5. **Save Button:** Applies baked image. 
+6. **Reset Button:** Removes all elements from the map.
 
 ---
 
@@ -63,9 +64,11 @@ This tab is disabled if no objects have been detected.
 - Clicking inside a green circle selects an object (red circle appears).
 
 <table>
-  <tr><td><img src="images/charting/sel_1.png"></td></tr>
-  <tr><td><img src="images/charting/sel_2.png"></td></tr>
-  <tr><td><img src="images/charting/sel_3.png"></td></tr>
+  <tr>
+    <td><img src="images/charting/sel_1.png"></td>
+    <td><img src="images/charting/sel_2.png"></td>
+    <td><img src="images/charting/sel_3.png"></td>
+  </tr>
 </table>
 
 - Clicking outside any object cancels the previous selection.
