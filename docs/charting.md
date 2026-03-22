@@ -126,3 +126,68 @@ This tab is disabled if no objects have been detected.
     <td></td>
   </tr>
 </table>
+
+---
+
+## Label Panel
+
+<table>
+  <tr><th>Preview</th></tr>
+  <tr><td><img src="images/charting/lab_preview.png"></td></tr>
+</table>
+
+
+- Each object can have **one label**.  
+- Steps:
+  1. Select an object.
+  2. Click **Apply** to create or update the label.
+  3. Modify parameters at any time and click **Apply**.
+  4. Click **Remove** to delete the label.
+
+**Parameters**
+
+| Parameter    | Description | Range |
+|--------------|------------|-------|
+| Label        | Text | 0–16 characters |
+| Text Size    | Font size | 8–128 px |
+| Distance     | Distance from object center | 0–1000 px |
+| Rotation     | Rotation angle (0° = right, 90° = bottom) | 0–360° |
+| Color RGB    | Font color | 0–1 per channel |
+
+**Usage:**
+
+<table>
+  <tr>
+    <td>Label</td>
+    <td><img src="images/charting/lab_1_1.png" width="150"></td>
+    <td><img src="images/charting/lab_2_1.png" width="150"></td>
+    <td><img src="images/charting/lab_3_1.png" width="150"></td>
+  </tr>
+  <tr>
+    <td>Text Size</td>
+    <td><img src="images/charting/lab_1_2.png" width="150"></td>
+    <td><img src="images/charting/lab_2_2.png" width="150"></td>
+    <td><img src="images/charting/lab_3_2.png" width="150"></td>
+  </tr>
+  <tr>
+    <td>Distance</td>
+    <td><img src="images/charting/lab_1_3.png" width="150"></td>
+    <td><img src="images/charting/lab_2_3.png" width="150"></td>
+    <td><img src="images/charting/lab_3_3.png" width="150"></td>
+  </tr>
+  <tr>
+    <td>Rotation</td>
+    <td><img src="images/charting/lab_1_4.png" width="150"></td>
+    <td><img src="images/charting/lab_2_4.png" width="150"></td>
+    <td><img src="images/charting/lab_3_4.png" width="150"></td>
+  </tr>
+  <tr>
+    <td>Color</td>
+    <td><img src="images/charting/lab_1_5.png" width="150"></td>
+    <td><img src="images/charting/lab_2_5.png" width="150"></td>
+    <td><img src="images/charting/lab_3_5.png" width="150"></td>
+  </tr>
+</table>
+
+---
+
