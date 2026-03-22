@@ -1,3 +1,5 @@
+[Back](index.md)
+
 # Correction Tab
 
 The **Correction** tab provides tools for editing and enhancing nighttime sky images before detection and charting.
