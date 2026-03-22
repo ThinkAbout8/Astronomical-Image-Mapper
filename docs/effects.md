@@ -154,3 +154,118 @@ Darkens the edges of the image to emphasize the center.
 
 ---
 
+## Pixelize
+
+Divides the image into uniform pixel blocks.
+
+- **Slider range:** `1` to `100`
+
+<table>
+  <tr>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td><img src="images/effects/pixe_preview.png" width="600"/></td>
+  </tr>
+</table>
+
+<h4>Examples</h4>
+<table>
+  <tr>
+    <td><img src="images/effects/pixe_1.png" width="600"/></td>
+    <td><img src="images/effects/pixe_2.png" width="600"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/effects/pixe_3.png" width="600"/></td>
+    <td><img src="images/effects/pixe_4.png" width="600"/></td>
+  </tr>
+</table>
+
+---
+
+## Posterize
+
+Reduces the number of color levels, creating strong contrast.
+
+- **Slider range:** `2` to `16`
+
+<table>
+  <tr>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td><img src="images/effects/post_preview.png" width="600"/></td>
+  </tr>
+</table>
+
+<h4>Examples</h4>
+<table>
+  <tr>
+    <td><img src="images/effects/post_1.png" width="600"/></td>
+    <td><img src="images/effects/post_2.png" width="600"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/effects/post_3.png" width="600"/></td>
+    <td><img src="images/effects/post_4.png" width="600"/></td>
+  </tr>
+</table>
+
+---
+
+## Shift
+
+Offsets RGB channels in different directions.
+
+- **Slider range:** `1` to `100`
+
+<table>
+  <tr>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td><img src="images/effects/shif_preview.png" width="600"/></td>
+  </tr>
+</table>
+
+<h4>Examples</h4>
+<table>
+  <tr>
+    <td><img src="images/effects/shif_1.png" width="600"/></td>
+    <td><img src="images/effects/shif_2.png" width="600"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/effects/shif_3.png" width="600"/></td>
+    <td><img src="images/effects/shif_4.png" width="600"/></td>
+  </tr>
+</table>
+
+---
+
+## Noise
+
+Adds random noise to the image.
+
+- **Slider range:** `1` to `100`
+
+<table>
+  <tr>
+    <th>Preview</th>
+  </tr>
+  <tr>
+    <td><img src="images/effects/nois_preview.png" width="600"/></td>
+  </tr>
+</table>
+
+<h4>Examples</h4>
+<table>
+  <tr>
+    <td><img src="images/effects/nois_1.png" width="600"/></td>
+    <td><img src="images/effects/nois_2.png" width="600"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/effects/nois_3.png" width="600"/></td>
+    <td><img src="images/effects/nois_4.png" width="600"/></td>
+  </tr>
+</table>
+
+---
