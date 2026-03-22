@@ -11,10 +11,10 @@ An application for digital star mapping through correction, detection, and annot
 Improve raw astronomical images by reducing noise and enhancing contrast.
 
 **Before:**  
-![Before Correction](images/correction_before.png)
+![Before Correction](examples/original.png)
 
 **After:**  
-![After Correction](images/correction_after.png)
+![After Correction](examples/desaturated.png)
 
 ---
 
@@ -22,10 +22,10 @@ Improve raw astronomical images by reducing noise and enhancing contrast.
 Automatically detect stars and other celestial objects, annotate them.
 
 **Before:**  
-![Before Annotation](images/annotation_before.png)
+![Before Annotation](examples/original.png)
 
 **After:**  
-![After Annotation](images/annotation_after.png)
+![After Annotation](examples/annotated.png)
 
 ---
 
@@ -33,10 +33,10 @@ Automatically detect stars and other celestial objects, annotate them.
 Experiment with filters to highlight features or enhance image quality.
 
 **Before:**  
-![Before Filter](images/filter_before.png)
+![Before Filter](examples/annotated.pngg)
 
 **After:**  
-![After Filter](images/filter_after.png)
+![After Filter](examples/filtered.png)
 
 ---
     
