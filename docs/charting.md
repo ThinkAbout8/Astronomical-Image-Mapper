@@ -72,3 +72,57 @@ This tab is disabled if no objects have been detected.
 </table>
 
 - Clicking outside any object cancels the previous selection.
+
+---
+
+## Outline Panel
+
+<table>
+  <tr><th>Preview</th></tr>
+  <tr><td><img src="images/charting/out_preview.png"></td></tr>
+</table>
+
+- Each object can have **one outline**.  
+- Steps:
+  1. Select an object.
+  2. Click **Apply** to create or update the outline.
+  3. Modify parameters at any time and click **Apply**.
+  4. Click **Remove** to delete the outline.
+
+**Parameters**
+
+| Parameter | Description | Range |
+|-----------|------------|-------|
+| Thickness | Outline line thickness | 1–200 px |
+| Radius    | Outline radius | 1–1000 px |
+| Color RGB | Outline color | 0–1 per channel |
+| Shape     | Outline shape | Circle / Square |
+
+**Usage:**
+
+<table>
+  <tr>
+    <td>Thickness</td>
+    <td><img src="images/charting/out_1_1.png" width="150"></td>
+    <td><img src="images/charting/out_2_1.png" width="150"></td>
+    <td><img src="images/charting/out_3_1.png" width="150"></td>
+  </tr>
+  <tr>
+    <td>Radius</td>
+    <td><img src="images/charting/out_1_2.png" width="150"></td>
+    <td><img src="images/charting/out_2_2.png" width="150"></td>
+    <td><img src="images/charting/out_3_2.png" width="150"></td>
+  </tr>
+  <tr>
+    <td>Color</td>
+    <td><img src="images/charting/out_1_3.png" width="150"></td>
+    <td><img src="images/charting/out_2_3.png" width="150"></td>
+    <td><img src="images/charting/out_3_3.png" width="150"></td>
+  </tr>
+  <tr>
+    <td>Thickness</td>
+    <td><img src="images/charting/out_1_4.png" width="150"></td>
+    <td><img src="images/charting/out_2_4.png" width="150"></td>
+    <td></td>
+  </tr>
+</table>
