@@ -191,3 +191,70 @@ This tab is disabled if no objects have been detected.
 
 ---
 
+## Line Panel
+
+<table>
+  <tr><th>Preview</th></tr>
+  <tr><td><img src="images/charting/lin_preview.png"></td></tr>
+</table>
+
+
+- Each object can have **many lines**.  
+- Steps:
+  1. Select the first object.
+  2. Click **Select Second Point**, then click another object.
+  3. Click **Apply** to create or update the line.
+  4. Click **Remove** to delete the line.
+
+Line selection endpoint is marked with **yellow circle**. Same rules apply as for [Select Mode](#select-mode). ***Second object can't be same as the first one***.
+<img src="images/charting/lin_sel_1.png"> 
+
+**Status Indicators**
+Different indicators mark what state the line is in:
+
+<table>
+  <tr>
+    <th>Indicator</th>
+    <th>Meaning</th>
+  </tr>
+  <tr>
+    <td><img src="images/charting/lin_sel_2.png" alt="red"></td>
+    <td>Second object is not selected. Line can neither be created nor modified</td>
+  </tr>
+  <tr>
+    <td><img src="images/charting/lin_sel_3.png" alt="yellow"></td>
+    <td>User is selecting the second object</td>
+  </tr>
+  <tr>
+    <td><img src="images/charting/lin_sel_4.png" alt="green"></td>
+    <td>Second object is selected. Line can be created or modified.</td>
+  </tr>
+</table>
+
+
+**Parameters**
+
+| Parameter | Description | Range |
+|-----------|------------|-------|
+| Line Width | Thickness | 1–100 px |
+| Color RGB  | Line color | 0–1 per channel |
+
+**Usage:**
+
+<table>
+  <tr>
+    <td>Line Width</td>
+    <td><img src="images/charting/lin_1_1.png" width="150"></td>
+    <td><img src="images/charting/lin_2_1.png" width="150"></td>
+    <td><img src="images/charting/lin_3_1.png" width="150"></td>
+  </tr>
+  <tr>
+    <td>Color</td>
+    <td><img src="images/charting/lin_1_2.png" width="150"></td>
+    <td><img src="images/charting/lin_2_2.png" width="150"></td>
+    <td><img src="images/charting/lin_3_2.png" width="150"></td>
+  </tr>
+</table>
+
+---
+
