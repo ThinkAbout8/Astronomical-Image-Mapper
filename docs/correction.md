@@ -69,6 +69,7 @@ Adjust the intensity of the RGB components of the working image.
     <td><img src="images/correction/col_res_2.png" width="150"/></td>
   </tr>
 </table>
+
 ---
 
 ## Brightness
