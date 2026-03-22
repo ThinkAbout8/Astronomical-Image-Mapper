@@ -33,7 +33,7 @@ Automatically detect stars and other celestial objects, annotate them.
 Experiment with filters to highlight features or enhance image quality.
 
 **Before:**  
-![Before Filter](examples/annotated.pngg)
+![Before Filter](examples/annotated.png)
 
 **After:**  
 ![After Filter](examples/filtered.png)
